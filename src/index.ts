@@ -5,8 +5,7 @@ import "./css/chessground/chessground.brown.css";
 import "./css/chessground/chessground.cburnett.css";
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    var config = {};
-    var element = document.getElementById('board');
-    var ground = Chessground(element, config);
+    const config = {};
+    const element = document.getElementById('board');
+    const ground = Chessground(element, config);
 });
-
